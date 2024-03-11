@@ -1,0 +1,46 @@
+.header {
+  &__container {}
+  &__navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 35px 0;
+  }
+  &__logo {}
+  &__links {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+  &__link {
+    gap: 10px;
+    color: #707070;
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 3rem;
+    transition: color 0.15s linear;
+    text-decoration: none;
+    img {
+      padding: 2px;
+      margin-left: 4px;
+    }
+    &:hover img {
+      filter: invert(100%) hue-rotate(120deg);
+    }
+    &:hover,
+    &:active {
+      color: #3C82F4;
+    }
+  }
+  &__auth {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  &__btn {
+    padding: 1rem 2rem;
+    border: none;
+  }
+}

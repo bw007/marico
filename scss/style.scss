@@ -1,13 +1,27 @@
+@import 'lib';
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+
 html {
   font-size: 62.5%;
 }
 
 body {
-  
+  font-family: "Poppins", sans-serif;
+  background-color: #000;
 }
+
+.container {
+  max-width: 1680px;
+  margin: auto;
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+@import "header";
