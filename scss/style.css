@@ -8018,13 +8018,13 @@
 }
 
 .primary {
-  background: #306EF7;
-  border: 1px solid #306EF7;
-  color: #FFF;
+  background: #3C82F4;
+  border: 1px solid #3C82F4;
+  color: #ffffff;
   transition: opacity 0.15s linear;
 }
 .primary:hover, .primary:active {
-  color: #FFF;
+  color: #ffffff;
   opacity: 0.85;
 }
 
@@ -8040,7 +8040,7 @@ html {
 
 body {
   font-family: "Poppins", sans-serif;
-  background-color: #000;
+  background-color: #000000;
   padding-bottom: 50px;
 }
 
@@ -8097,7 +8097,7 @@ body {
   font-size: 11rem;
   line-height: 16rem;
   text-align: center;
-  color: #FFF;
+  color: #ffffff;
 }
 .header__high {
   background: -webkit-linear-gradient(0deg, #FE6783 1.9%, #FFBF84 97.1%);
@@ -8117,7 +8117,7 @@ body {
 .header__desc {
   font-size: 4rem;
   line-height: 6rem;
-  color: #FFF;
+  color: #ffffff;
 }
 .header__group {
   display: flex;
@@ -8130,13 +8130,19 @@ body {
 .header__slogan {
   display: flex;
   align-items: center;
-  color: #FFF;
+  color: #ffffff;
+  gap: 10px;
   font-size: 2.5rem;
 }
 .header__slogan span:first-child {
-  width: 17px;
-  height: 17px;
+  display: inline-block;
+  width: 1.7rem;
+  height: 1.7rem;
   background: #0FC65C;
+  border-radius: 20px;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  box-shadow: 0 0 0 8px rgb(5, 66, 30);
 }
 .header__slogan span:last-child {
   color: #707070;

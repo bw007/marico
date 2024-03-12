@@ -82,13 +82,18 @@
     display: flex;
     align-items: center;
     color: $--light;
+    gap: 10px;
     font-size: 2.5rem;
     span {
       &:first-child {
-        width: 17px;
-        height: 17px;
+        display: inline-block;
+        width: 1.7rem;
+        height: 1.7rem;
         background: $--success;
-        border-radius: 200px;
+        border-radius: 20px;
+        margin-right: 10px;
+        margin-bottom: 5px;
+        box-shadow: 0 0 0 8px rgb(5, 66, 30);
       }
       &:last-child {
         color: $--darker;
