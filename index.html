@@ -12,7 +12,7 @@
 <body>
   <!-- Header -->
   <header class="header">
-    <div class="container header__container">
+    <div class="container">
       <nav class="header__navbar">
         <a href="./index.html" class="header__logo">
           <img src="./imgs/logo.svg" alt="Logotip">
@@ -30,17 +30,36 @@
           <button class="header__btn btn">Login</button>
           <button class="header__btn btn primary">Sign UP</button>
         </div>
+        <div class="header__menu-bar">
+          <span></span>
+        </div>
       </nav>
+
+      <aside class="header__sidebar">
+        <div class="header__links">
+          <a href="#" class="header__link">
+            Use Cases
+            <img src="./imgs/arrow-down.svg" alt="">
+          </a>
+          <a href="#" class="header__link">About</a>
+          <a href="#" class="header__link">Pricing</a>
+          <a href="#" class="header__link">Blog</a>
+        </div>
+        <div class="header__auth">
+          <button class="btn">Login</button>
+          <button class="btn primary">Sign UP</button>
+        </div>
+      </aside>
       <!-- Hero title -->
-      <h1 class="header__title my-100">
+      <h1 class="header__title">
         Own your audience.
         <span class="header__high">So you don't lose them.</span>
       </h1>
       <div class="header__inner">
-        <p class="header__desc mb-25">
+        <p class="header__desc">
           Turn your audience into email and text message subscribers.
         </p>
-        <div class="header__group my-20">
+        <div class="header__group">
           <button class="btn primary">Get Started Now</button>
           <button class="btn">View A Demo</button>
         </div>
@@ -52,5 +71,7 @@
       </div>
     </div>
   </header>
+
+  <script src="./js/main.js"></script>
 </body>
 </html>
