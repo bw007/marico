@@ -4,6 +4,7 @@ const barIcon = document.querySelector(".header__menu-bar"),
   barIcon.onclick = (e) => {
     barIcon.classList.toggle("header__menu-bar--active")
     sidebar.classList.toggle("header__sidebar--active");
+    document.body.classList.toggle("overflow")
   }
 
   window.addEventListener("resize", () => {

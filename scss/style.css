@@ -8028,6 +8028,10 @@
   opacity: 0.85;
 }
 
+.overflow {
+  overflow: hidden;
+}
+
 * {
   margin: 0;
   padding: 0;
