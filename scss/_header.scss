@@ -15,7 +15,7 @@
   }
   &__link {
     gap: 10px;
-    color: #707070;
+    color: $--darker;
     font-weight: 500;
     font-size: 2rem;
     line-height: 3rem;
@@ -30,7 +30,7 @@
     }
     &:hover,
     &:active {
-      color: #3C82F4;
+      color: $--primary;
     }
   }
   &__auth {
@@ -42,5 +42,57 @@
   &__btn {
     padding: 1rem 2rem;
     border: none;
+  }
+
+  &__title {
+    font-size: 11rem;
+    line-height: 16rem;
+    text-align: center;
+    color: $--light;
+  }
+  &__high {
+    background: -webkit-linear-gradient(0deg, #FE6783 1.9%, #FFBF84 97.1%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  &__inner {
+    width: 55vw;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+  }
+  &__desc {
+    font-size: 4rem;
+    line-height: 6rem;
+    color: $--light;
+  }
+  &__group {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    button {
+      padding: 1.5rem 3.5rem;
+    }
+  }
+  &__slogan {
+    display: flex;
+    align-items: center;
+    color: $--light;
+    font-size: 2.5rem;
+    span {
+      &:first-child {
+        width: 17px;
+        height: 17px;
+        background: $--success;
+        border-radius: 200px;
+      }
+      &:last-child {
+        color: $--darker;
+      }
+    }
   }
 }

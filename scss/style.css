@@ -8041,6 +8041,7 @@ html {
 body {
   font-family: "Poppins", sans-serif;
   background-color: #000;
+  padding-bottom: 50px;
 }
 
 .container {
@@ -8091,4 +8092,52 @@ body {
 .header__btn {
   padding: 1rem 2rem;
   border: none;
+}
+.header__title {
+  font-size: 11rem;
+  line-height: 16rem;
+  text-align: center;
+  color: #FFF;
+}
+.header__high {
+  background: -webkit-linear-gradient(0deg, #FE6783 1.9%, #FFBF84 97.1%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.header__inner {
+  width: 55vw;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+.header__desc {
+  font-size: 4rem;
+  line-height: 6rem;
+  color: #FFF;
+}
+.header__group {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.header__group button {
+  padding: 1.5rem 3.5rem;
+}
+.header__slogan {
+  display: flex;
+  align-items: center;
+  color: #FFF;
+  font-size: 2.5rem;
+}
+.header__slogan span:first-child {
+  width: 17px;
+  height: 17px;
+  background: #0FC65C;
+}
+.header__slogan span:last-child {
+  color: #707070;
 }/*# sourceMappingURL=style.css.map */

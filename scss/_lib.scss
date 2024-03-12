@@ -107,24 +107,24 @@
   line-height: 3rem;
   font-weight: 500;
   background-color: transparent;
-  border: 1px solid #707070;
-  color: #707070;
+  border: 1px solid $--darker;
+  color: $--darker;
   border-radius: 5px;
   transition: color 0.15s linear;
   cursor: pointer;
   &:hover,
   &:active {
-    color: #3C82F4;
+    color: $--primary;
   }
 }
 .primary {
-  background: #306EF7;
-  border: 1px solid #306EF7;
-  color: #FFF;
+  background: $--primary;
+  border: 1px solid $--primary;
+  color: $--light;
   transition: opacity 0.15s linear;
   &:hover,
   &:active {
-    color: #FFF;
+    color: $--light;
     opacity: 0.85;
   }
 }
