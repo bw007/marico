@@ -8238,16 +8238,20 @@ body {
     gap: 10px;
   }
   .header__title {
-    margin: 80px 0;
+    margin: 60px 0;
+    font-size: 8rem;
+    line-height: 9rem;
   }
   .header__inner {
     width: 560px;
   }
   .header__desc {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
+    font-size: 2.5rem;
+    line-height: 3.5rem;
   }
   .header__group {
-    margin: 15px 0;
+    margin: 10px 0;
   }
 }
 @media only screen and (max-width: 1200px) {
@@ -8264,17 +8268,8 @@ body {
   .header__auth {
     gap: 5px;
   }
-  .header__title {
-    margin: 70px 0;
-  }
   .header__inner {
     width: 450px;
-  }
-  .header__desc {
-    margin-bottom: 20px;
-  }
-  .header__group {
-    margin: 10px 0;
   }
   .header__slogan {
     gap: 5px;
@@ -8293,21 +8288,8 @@ body {
   .header__auth {
     gap: 5px;
   }
-  .header__title {
-    margin: 70px 0;
-    font-size: 10rem;
-    line-height: 12rem;
-  }
   .header__inner {
     width: 450px;
-  }
-  .header__desc {
-    margin-bottom: 20px;
-    font-size: 3rem;
-    line-height: 4rem;
-  }
-  .header__group {
-    margin: 10px 0;
   }
   .header__slogan {
     gap: 5px;
@@ -8334,21 +8316,8 @@ body {
   .header__sidebar .header__auth {
     display: flex;
   }
-  .header__title {
-    margin: 70px 0;
-    font-size: 10rem;
-    line-height: 12rem;
-  }
   .header__inner {
     width: 450px;
-  }
-  .header__desc {
-    margin-bottom: 20px;
-    font-size: 3rem;
-    line-height: 4rem;
-  }
-  .header__group {
-    margin: 10px 0;
   }
   .header__slogan {
     gap: 5px;
