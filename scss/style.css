@@ -8094,6 +8094,10 @@ body {
   border: none;
 }
 .header__title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   font-size: 11rem;
   line-height: 16rem;
   text-align: center;
