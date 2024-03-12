@@ -109,7 +109,7 @@
   background-color: transparent;
   border: 1px solid $--darker;
   color: $--darker;
-  border-radius: 5px;
+  border-radius: 10px;
   transition: color 0.15s linear;
   cursor: pointer;
   &:hover,
@@ -131,4 +131,19 @@
 
 .overflow {
   overflow: hidden;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 7.5rem;
+  line-height: 10rem;
+  color: $--light;
+  text-align: center;
+}
+
+.desc {
+  text-align: center;
+  font-size: 3rem;
+  line-height: 4rem;
+  color: $--darker;
 }
